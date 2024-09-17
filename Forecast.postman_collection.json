@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "455cad40-44b9-4767-9ff7-a7f3c433528b",
+		"name": "Forecast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19454460"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://weatherapp123-gwd4eud6bmamfnex.westeurope-01.azurewebsites.net/api/WeatherForecast?city=Baku&country=Azerbaijan&date=2024-09-17 ",
+					"protocol": "https",
+					"host": [
+						"weatherapp123-gwd4eud6bmamfnex",
+						"westeurope-01",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"WeatherForecast"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Baku"
+						},
+						{
+							"key": "country",
+							"value": "Azerbaijan"
+						},
+						{
+							"key": "date",
+							"value": "2024-09-17 "
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
